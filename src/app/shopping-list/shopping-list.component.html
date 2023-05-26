@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let ingredient of ingredients" class="d-flex flex-direction-column gap-1 align-items-center mb-2">
+    <button class="d-block mr-3 btn btn-danger btn-sm"> X </button>
+    <span>{{ ingredient.quantity }}</span> -
+    <strong>{{ ingredient.name }}</strong>
+  </li>
+</ul>
